@@ -1,0 +1,72 @@
+/*this represents the 1st dark grey container at the top*/
+header {
+  text-align: center;
+  background-color: grey;
+  padding: 5px;
+  font-family: cursive;
+  
+}
+
+/*"Fullstack Developer"*/
+header > div > section {
+text-align: center;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 20px;
+}
+/*link styles*/
+a:link   { color: rgb(18, 16, 124)       }
+a:visted { color: aliceblue              }
+a:hover  { color: blue                   }
+a:active { color: rgb(12, 11, 75)        }
+
+/*makes webpage linkready*/
+header > div > nav {
+  text-align: end;
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*makes midsection all grey*/
+main {
+  background: rgb(190, 189, 189); 
+
+}
+
+/*this customizes the image*/
+img {
+  border: 1px solid black;
+  border-radius: 4px;
+  
+}
+
+/*This is where the image is kept*/
+main > div > article > header {
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ background: rgb(190, 189, 189);
+  
+}
+
+
+/*edits with the h2, h3*/
+h2, h3 {
+  text-align: center
+}
+
+/*edits with the content(bodys of paragraphs)*/
+main > div > article > section {
+  font-family: sans-serif;
+  margin: 0px auto;
+  width: 500px;
+  padding: 10px;
+}
+
+/*edits with bottom grey section*/
+footer {
+font-family: sans-serif;
+margin: 0px auto;
+padding: 10px;
+background: grey;
+text-align: end;
+}
